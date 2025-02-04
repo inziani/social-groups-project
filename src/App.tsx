@@ -1,29 +1,23 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Container } from 'react-bootstrap'
-import { Routes, Route, Navigate } from 'react-router-dom'
-
+import NavBar from './components/NavBar'
+import { Routes, Route,  } from 'react-router-dom'
+import Home from './components/homePage'
 import { RegisterMember } from './components/RegisterMember'
 
-function App() {
+// import { RegisterMember } from './components/RegisterMember'
 
+
+
+function App() {
 
   return (
 
     <Container className="my-4">
-
+      <NavBar/>
       <Routes>
-        <Route path='/' element={<h1>Home</h1>} />
-        <Route
-          path='/registerMember'
-          element={
-            <RegisterMember/>
-          }
-        />
-        <Route path='/:id'>
-          <Route index element={<h1>Show</h1>} />
-          <Route path='edit' element={<h1>Edit</h1>} />
-        </Route>
-        <Route path='*' element={<Navigate to='/' />} />
+        <Route path='/' element={<Home />}/>
+        <Route path='/registerMember' element={<RegisterMember />}/>
       </Routes>
     </Container>
 
@@ -32,3 +26,5 @@ function App() {
 }
 
 export default App
+
+
