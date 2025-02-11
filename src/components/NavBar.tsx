@@ -12,7 +12,7 @@ export default function NavBar(){
                 <NavLink to='/reports'><li>Reports</li></NavLink>
     
             </ul>
-            <button onClick={()=>navigate('/reports')}>Get Started</button>
+            <button onClick={()=>navigate('/reports')}>Login</button>
         </div>
     )
 }
