@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Route,createBrowserRouter,  createRoutesFromElements, RouterProvider } from 'react-router-dom'
-import Home from './components/HomePage'
+import Home from './components/member/HomePage'
 import { RegisterMember } from './components/RegisterMember'
 import Reports from './components/Reports'
 import {RouteLayout} from './layout/RouteLayout';
