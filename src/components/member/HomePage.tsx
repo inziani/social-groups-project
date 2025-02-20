@@ -1,10 +1,12 @@
-// import React from "react"
+
 
 export default function Home (){
     return (
-        <div>
-            <h1>Home Page</h1>
-        </div>
+
+        <main  className="py-10 h-screen">
+            <h1 className="font-bold text-3xl text-center">Home Page</h1>
+        </main>
+        
     )
 }
 

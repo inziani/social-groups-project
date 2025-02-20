@@ -8,14 +8,18 @@ import {RouteLayout} from './layout/RouteLayout';
 
 
 export default function App() {
-const router = createBrowserRouter(createRoutesFromElements
-  (<Route path="/" element={<RouteLayout/>}>
+
+const router = createBrowserRouter(createRoutesFromElements(<Route path="/" element={<RouteLayout/>}>
     <Route index element={<Home />}/>
     <Route path='/registerMember' element={<RegisterMember />}/>
     <Route path='/reports' element={<Reports />}/>
   </Route>))
   return (
-    <RouterProvider router={router}/>
+
+    <main className='py-10 bg-red-50 h-screen'>
+      <RouterProvider router={router}/>
+    </main>
+    
   )
 
 }
