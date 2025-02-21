@@ -5,9 +5,7 @@ export const parents: ParentsMaster []= [
     { id: 1,
         name: 'Micheal Douglas Inziani',
     },
-    { id: 1,
-        name: 'Micheal Douglas Inziani',
-    },
+
     { id: 2,
         name: 'Flora Shiyenze Mulusa',
     },
