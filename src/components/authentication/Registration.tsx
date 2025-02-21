@@ -29,7 +29,7 @@ export default function Registration(){
                           title="firstName"
                           className="block  w-full rounded-md border-0 bg-white/5 py-1.5
                            text-white shadow-sm ring-1 outline-none ring-inset ring-white/10
-                           focus:ring-2 focus:ring-indigo-500 sm:text-sm sm:leading-6 px-4"
+                           focus:ring-2 focus:ring-indigo-500 sm:text-sm sm:leading-6 px-4 mt-2"
                           
                           />
                         </div>
